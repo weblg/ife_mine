@@ -1,0 +1,55 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.container{
+  position: relative;
+  /*background-color: pink;*/
+}
+table{
+  margin: 0 auto;
+
+}
+td{
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+tr:nth-child(n+2)>td:nth-child(n+2){
+  border: 1px solid black;
+  margin: -2px;
+/*  margin: -1px;
+  position: relative;
+  left:0px;*//*这段话暂时没起什么作业，因而注释*/
+}
+.inputs{
+  margin: 0 auto;
+  width:300px;
+}
+/*#input{
+  height: 30px;
+}
+.btn{
+  height: 30px;
+  width: 80px;
+}*/
+.target{
+  width: 40px;
+  height: 40px;
+  /*background-color: green;*/
+  position: absolute;
+  left:50%;
+  top:50%;
+  margin-top: 11px;
+  margin-left: 21px;
+}
+.head{
+  height: 10px;
+  background-color: blue;
+}
+.tail{
+  height: 30px;
+  background-color: red;
+}
