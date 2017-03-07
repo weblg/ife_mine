@@ -1,0 +1,151 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.container{
+  position: relative;
+  /*background-color: pink;*/
+  margin-left: 50%;
+  left:-250px;
+}
+table{
+
+}
+td{
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+tr:nth-child(n+2)>td:nth-child(n+2){
+  border: 1px solid black;
+  margin: -2px;
+/*  margin: -1px;
+  position: relative;
+  left:0px;*//*这段话暂时没起什么作业，因而注释*/
+}
+.inputs{
+  margin: 0 auto;
+  width:300px;
+}
+/*#input{
+  height: 30px;
+}
+.btn{
+  height: 30px;
+  width: 80px;
+}*/
+.target{
+  width: 40px;
+  height: 40px;
+  /*background-color: green;*/
+  position: absolute;
+  left:377px;
+  top:293px;
+  background-color: red;
+  /*transition:all 0.4s;*/
+}
+.target div{
+  background-color: blue;
+}
+/*.tail{
+  height: 30px;
+
+}*/
+.cmd{
+  border: 1px solid black;
+  position: absolute;
+  left: 110px;
+  width: 110px;
+  top: 0px;
+}
+.cmd button{
+  width: 100px;
+  height: 35px;
+  margin-top: 5px;
+}
+.top{
+  width: 100%;
+  height: 10px;
+
+}
+.right{
+  height: 100%;
+  width: 10px;
+  margin-left: 30px;
+
+}
+.bottom{
+  width: 100%;
+  height: 10px;
+  margin-top: 30px;
+}
+.left{
+  height: 40px;
+  width: 10px;
+}
+.carryout{
+  /*background-color: #fec;*/
+  width: 300px;
+  position: relative;
+  left:600px;
+  top:10px;
+}
+.carryout input{
+  width:100px;
+  height: 25px;
+  font-family: "Microsoft YaHei";
+  font-weight: bold;
+}
+.orders{
+  /*background-color: #fcf;*/
+  width: 400px;
+  position: relative;
+  left: 540px;
+  top:20px;
+  font-size: 20px;
+
+}
+.orders ul{
+  background-color: grey;
+  list-style: none;
+  width: 25px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  display: inline-block;
+  position: absolute;
+  color: white;
+  height: 168px;
+  overflow: hidden;
+  top:2px;
+}
+.orders ul li{
+
+}
+.orders textarea{
+  background-color: black;
+  color: green;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  left:30px;
+}
+.wrong{
+  /*background-color: red;*/
+  border-radius: 10px;
+
+}
+.introduction{
+
+  position: absolute;
+  top:10px;
+  left: 30px;
+  width: 330px;
+  font-family: "Microsoft YaHei";
+  background-color: #E8E8E8;
+}
+.introduction ul{
+  list-style: none;
+}
