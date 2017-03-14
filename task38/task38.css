@@ -1,0 +1,57 @@
+table{
+  width: 600px;
+  height: 200px;
+  border-color: #CCCCCC;
+  text-align: center;
+}
+table tr{
+  /*height: 50px;*/
+}
+table tr td{
+  /*width: 120px;*/
+  position: relative;
+  border: 1px solid #CCC;
+}
+table tr:nth-of-type(1){
+  background-color: #333333;
+  color: white;
+
+}
+/*.arrow{
+  display: inline-block;
+  background-color: green;
+  height: 35px;
+  width: 17px;
+  position: absolute;
+
+  top:7px;
+}*/
+.toparrow{
+  /*background-color: green;*/
+  display: inline-block;
+  width: 0;
+   height: 0;
+   border-left: 8px solid transparent;
+   border-right: 8px solid transparent;
+   border-bottom: 15px solid white;
+   position: absolute;
+   top:2px;
+   left:80px;
+}
+.bottomarrow{
+  display: inline-block;
+  width: 0;
+   height: 0;
+   border-left: 8px solid transparent;
+   border-right: 8px solid transparent;
+   border-top: 15px solid white;
+   position: absolute;
+   top:22px;
+   left:80px;
+}
+.toparrow:hover{
+  cursor: pointer;
+}
+.bottomarrow:hover{
+    cursor: pointer;
+}
