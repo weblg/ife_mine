@@ -1,0 +1,145 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.input{
+  background-color: cornflowerblue;
+  width: 430px;
+  height: 25px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.input #text{
+  height: 20px;
+  width: 240px;
+}
+.input #toggle{
+  height: 25px;
+  width: 60px;
+}
+select{
+
+  width: 100px;
+  height: 25px;
+
+}
+/*.input input{
+  width: 200px;
+  height: 20px;
+}*/
+.calen{
+  /*background-color: pink;*/
+  margin: 0 auto;
+  width: 350px;
+  border: 2px solid #dcdcdc;
+  display: none;
+}
+.control{
+  background-color: #C81B01;
+  height: 40px;
+  position: relative;
+  font-family: "Microsoft YaHei";
+}
+.control div:nth-of-type(1){
+  /*background-color: #eee;*/
+
+  width:0;
+  height:0;
+  border-width:13px 13px 13px 0;
+  border-style:solid;
+  border-color:#C81B01 white #C81B01 #C81B01;
+  position: absolute;
+  top:7px;
+  left: 15px;
+}
+.control div:nth-of-type(2){
+  /*background-color: #efc;*/
+  color: white;
+  width: 100px;
+  position: absolute;
+  top:10px;
+  left:130px;
+  font-weight: bold;
+}
+.control div:nth-of-type(3){
+  /*background-color: #ffe;*/
+  width:0;
+  height:0;
+  border-width:13px 0px 13px 13px;
+  border-style:solid;
+  border-color:#C81B01 #C81B01 #C81B01 white;
+  position: absolute;
+  top:7px;
+  right: 15px;
+}
+.control div:nth-of-type(1):hover,
+.control div:nth-of-type(3):hover{
+  cursor: pointer;
+}
+
+table{
+  border-collapse: collapse;
+  /*border: solid 1px black;
+  background-color: pink;*/
+}
+table tr th{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-family: "Microsoft YaHei";
+}
+table tr td{
+  border: 1px solid #eee;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-family: "Microsoft YaHei";
+}
+table tr td:hover{
+  cursor: pointer;
+}
+.clickRed{
+  background-color: #C81B01;
+  color: white;
+  transition: all 0.2s;
+}
+.clickstyle{
+  background-color: red;
+  color: white;
+}
+.clickhover{
+  background-color: #C81B01;
+  color: white;
+  transition: all 0.2s;
+}
+.currentColor{
+  color:black;
+  font-weight: bold;
+}
+.notcurrentColor{
+  font-weight: bold;
+  color:#dcdcdc;
+}
+.holiday{
+  color:red;
+}
+.confirm{
+  background-color:#38BA7D;
+  width:100px;
+  height:30px;
+  border: none;
+  color:white;
+  position: relative;
+  left:50px;
+  margin: 10px 0px;
+}
+.cancel{
+  background-color:#F34541;
+  width:100px;
+  height:30px;
+  border: none;
+  color:white;
+  position: relative;
+  left:100px;
+  margin: 10px 0px;
+}
