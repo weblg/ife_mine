@@ -1,0 +1,33 @@
+.rowphotoContainer{
+  background-color: pink;
+  width:1000px;
+  margin:0 auto;
+}
+.rowphotoRow{
+
+  white-space:nowrap;
+  /*border: 1px solid black;*/
+  overflow: hidden;
+}
+.rowphotoBox{
+  background-color: #efc;
+  position: relative;
+/*  width: 500px;
+height: 400px;*/
+  display: inline-block;
+  box-sizing:border-box;
+  /*这样在js中设置的时候div的这个大小就是设置的宽高*/
+}
+.rowphotoBox img{
+ height: 100%;
+  /* width: 100%;
+  display: block;
+  display: block;*/
+}
+.content{
+  /*background-color: grey;*/
+  position: absolute;
+  bottom:0px;
+  left:10px;
+  color:white;
+}
