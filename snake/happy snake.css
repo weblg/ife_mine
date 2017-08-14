@@ -1,0 +1,57 @@
+*{
+  padding: 0px;
+  margin:0px;
+}
+.wrap{
+  /*background-color:pink;*/
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+h1{
+  font-size:20px;
+  text-align: center;
+}
+p{
+position: absolute;
+left:82%;
+top:7%;
+font-size:18px;
+font-weight: bold;
+}
+#pause,#start,#refresh,#speed{
+  font-size:16px;
+  background-color: #9999FF;
+  border-radius: 3px;
+  width: 80px;
+  height: 30px;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#pause:hover,#start:hover,#refresh:hover,#speed:hover{
+cursor: pointer;
+}
+.row{
+  height: 20px;
+  background-color: #efc;
+}
+.col{
+  height: 20px;
+  width: 20px;
+  background-color: rgb(255,255,255);
+  border: 1px solid #dcdcdc;
+  /*display: inline-block;*/
+  float: left;
+  box-sizing: border-box;
+}
+#snake_map{
+  margin: 0 auto;
+  border: 1px solid #CCCCFF;
+}
+.activeSnake{
+  background-color: black;
+}
+.egg{
+  background-color: #C80000;
+}
